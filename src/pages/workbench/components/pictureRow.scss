@@ -1,0 +1,55 @@
+.p-item {
+	position: relative;
+	width: 2.22rem;
+	margin-right: .1rem;
+	height: 1.66rem;
+	background-color: lightblue;
+	& .img-wrapper {
+		width: 100%;
+		height: 100%;
+		& > .img {
+			width: 100%;
+			height: 100%;
+			display: block;
+			-webkit-touch-callout: none;
+			pointer-events: none;
+		}
+	}
+	
+	&:last-child {
+		margin-right: 0;
+	}
+
+	& .upload-progress {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		border-radius: .08rem;
+		text-align: center;
+		line-height: 1.66rem;
+		font-size: .24rem;
+		color: white;
+		background-color: rgba($color: #000000, $alpha: 1.0);
+	}
+}
+
+.p-delete {
+	animation: shark 1s infinite;
+}
+
+@keyframes shark
+{
+	0%   {
+		transform: scale(1);
+	}
+
+	50%  {
+		transform: scale(0.97);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}

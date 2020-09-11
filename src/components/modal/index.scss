@@ -1,0 +1,33 @@
+.modal {
+    width: 6.86rem;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 8px;
+    text-align: center;
+    background-color: white;
+    & .title {
+        font-size: .32rem;
+        font-weight: 600;
+    }
+
+    & .footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.2rem;
+        & > div {
+            width: 2rem;
+            height: .8rem;
+            border-radius: .4rem;
+            margin-right: 20px;
+            line-height: .8rem;
+            font-size: .28rem;
+            color: white;
+            background-color: #f5b74c;
+            &:nth-child(2) {
+                background-color: #cccccc;;
+            }
+        }
+    }
+}

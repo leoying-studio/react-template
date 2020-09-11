@@ -1,0 +1,40 @@
+@import './../assets/fonts/iconfont.css';
+@import './reset.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(163, 222, 240);
+}
+
+#root {
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 750px;
+  background:rgba(247,246,243,1);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.close {
+  width: .4rem;
+  height: .4rem;
+  display: flex;
+  border-radius: .2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  opacity: 0.39;
+  & .icondel {
+    font-size: .32rem;
+    color: white;
+  }
+}

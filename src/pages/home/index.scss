@@ -1,0 +1,39 @@
+.outer {
+    padding-left: .32rem;
+    padding-right: .32rem;
+    padding-bottom: 1rem;
+    background-color: #F7F6F3;
+    & .tips {
+        margin: 0;
+        margin-top: .24rem;
+
+        text-align: center;
+        font-size: .24rem;
+        color: #999999;
+    }
+    .list-item {
+        margin-top: .32rem;
+        overflow: hidden;
+        background:rgba(255,255,255,1);
+        border-radius:8px;
+        & .img{
+            display: block;
+            width: 6.86rem;
+            height: 3.44rem;
+        }
+        & .list-item-footer {
+            padding-left: .32rem;
+            padding-right: .32rem;
+            padding-top: .24rem;
+            padding-bottom: .24rem;
+            & .content {
+                font-size:.32rem;
+                font-style: normal;
+                font-family:PingFangSC-Medium,PingFang SC;
+                font-weight:500;
+                color:rgba(0,0,0,1);
+                line-height:.4rem;
+            }
+        }
+    }
+}

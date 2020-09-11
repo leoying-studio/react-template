@@ -1,0 +1,63 @@
+@import './../../../styles/utils.scss';
+.fill-phone-container {
+    position: fixed;
+    top: 30%;
+    left: 50%;;
+    margin-left: -3.27rem;
+    padding-top: .96rem;
+    padding-bottom: .96rem;
+    padding-left: .48rem;
+    padding-right: .48rem;;
+    // width: 6.54rem;
+    z-index: 9;
+    border-radius: .16rem;
+    background-color: white;
+    & .title-group {
+        & > small {
+            font-size:.28rem;
+            line-height:.36rem;
+            font-weight:400;
+            color:rgba(153,153,153,1);
+        }
+        & > p {    
+            padding: 0;
+            margin: 0;
+            margin-top: .08rem;
+            font-size:.48rem;
+            font-weight:500;
+            color:rgba(0,0,0,1);
+            line-height:.6rem;
+        }
+    }
+
+    & .form {
+        margin-top: .48rem;
+        padding-bottom: .1rem;
+        @include border_1px(#E2E2E2);
+        & input {
+            width: 100%;
+            font-size: .35rem;
+            border: none;
+            outline: none;
+        }
+    }
+
+    & .btn {
+        width:5.58rem;
+        height:.88rem;
+        margin-top: .48rem;
+        border: none;
+        font-size: .32rem;
+        line-height: .88rem;
+        background:rgba(245,183,76,1);
+        border-radius:.44rem;
+        outline: none;
+        color: white;
+    }
+
+    & .close {
+        position: absolute;
+        right: .32rem;
+        top: .32rem;
+    }
+}

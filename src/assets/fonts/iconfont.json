@@ -1,0 +1,51 @@
+{
+  "id": "1900773",
+  "name": "power-monkey",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1567554",
+      "name": "loading",
+      "font_class": "loading",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "8617536",
+      "name": "del",
+      "font_class": "del",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "11982660",
+      "name": "Cloud, upload, storage",
+      "font_class": "Clouduploadstorage",
+      "unicode": "e9ce",
+      "unicode_decimal": 59854
+    },
+    {
+      "icon_id": "1624963",
+      "name": "icon_left_arrow",
+      "font_class": "icon_left_arrow",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "11488063",
+      "name": "left arrow",
+      "font_class": "leftarrow",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "14553261",
+      "name": "left-arrow",
+      "font_class": "left-arrow",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    }
+  ]
+}

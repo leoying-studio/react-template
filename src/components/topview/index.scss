@@ -1,0 +1,18 @@
+.topview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(29, 29, 29, 0.7);
+    opacity: 0;
+    z-index: 9999;
+    transition: all ease-in-out .5s;  
+    & .topview-inner {
+      width: 100%;
+      display: 'flex';
+      align-items: 'center';
+      justify-content: 'center';
+      transition: all ease-in-out .5s;  
+    }
+  }

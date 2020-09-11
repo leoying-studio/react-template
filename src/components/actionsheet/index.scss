@@ -1,0 +1,41 @@
+@import 'styles/utils.scss';
+
+.actionsheet-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	transition: all ease-in-out .3s;
+	padding: 0;
+	padding-left: .32rem;
+	padding-right: .32rem;
+	text-align: center;
+		& .menu-wrapper {
+			overflow: hidden;
+			border-radius: .2rem;
+			background-color: white;
+			& .menu-item {
+				font-size: .28rem;
+				height: .8rem;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: white;
+				@include border_1px(#ECECEC);
+			}
+			
+		}
+		& .footer {
+			margin-top: .12rem;
+			font-size: .28rem;
+			height: .8rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: .2rem;
+			background-color: white;
+		}
+	
+	
+	
+}

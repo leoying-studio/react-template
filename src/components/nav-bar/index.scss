@@ -1,0 +1,39 @@
+.nav-container {
+
+}
+
+.inner {
+    margin: 0 auto;
+    max-width: 7.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    height: .88rem;
+    line-height: .88rem;
+    background-color: white;
+    z-index: 999;
+    & .left-icon {
+        font-weight: bold;
+        font-size: .42rem;
+    }
+    & .left-contaienr {
+        position: absolute;
+        left: .32rem;
+    }
+
+    & .title {
+        font-size:.32rem;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:600;
+        color:rgba(0,0,0,1);
+        line-height:.44rem;
+    }
+}
+
+.placeholder {
+    height: .88rem;
+    line-height: .88rem;
+}

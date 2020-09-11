@@ -1,0 +1,6 @@
+{
+	"compilerOptions": {
+	  "baseUrl": "src"
+	},
+	"include": ["src/uses", "src/services", "src/components", "src/styles", "src/lib"]
+  }

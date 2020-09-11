@@ -1,0 +1,15 @@
+@mixin border_1px($color) {
+	position: relative;
+	&::after {
+	  content: " ";
+	  box-sizing: border-box;
+	  position: absolute;
+	  bottom:  0;
+	  left: 0;
+	  width: 200%;
+	//   height: 200%;
+	  border-bottom: 1.5px solid $color;
+	  transform: scale(0.5);
+	  transform-origin: 0 0;
+	}
+}
